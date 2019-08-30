@@ -7,3 +7,12 @@ Live version deployed on OpenShift at http://spring-break-spring-boot.b9ad.pro-u
 <br>
 <br>
 ![Spring Break](screenshot.png)
+<br>
+<br>
+##Start-up script
+1. `sh startup.sh`
+2. Open browser at http://localhost:8080
+
+##Maven start-up
+1. `./mvnw spring-boot:run`
+2. Open browser at http://localhost:8080
