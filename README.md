@@ -6,7 +6,7 @@ A Spring Boot CRUD app which maintains a list of students with their contact det
 <br>
 <br>
 <br>
-![Spring Break](img/screenshot.png)
+![Spring Break](img/screenshot2.png)
 <br>
 <br>
 ## Start-up script
