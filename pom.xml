@@ -13,8 +13,8 @@
     <name>spring-break</name>
     <description>Student list Spring Boot CRUD web app</description>
     <scm>
-        <connection>scm:git:ssh://Lylio@Lylio/Spring-Break.git</connection>
-        <developerConnection>scm:git:ssh://Lylio@Lylio/Spring-Break.git</developerConnection>
+        <connection>scm:git:git@github.com:Lylio/Spring-Break.git</connection>
+        <developerConnection>scm:git:git@github.com:Lylio/Spring-Break.git</developerConnection>
       <tag>latest</tag>
   </scm>
 
