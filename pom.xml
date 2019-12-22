@@ -21,7 +21,6 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <project.scm.id>git</project.scm.id>
     </properties>
 
 
