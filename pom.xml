@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.lylechristine</groupId>
     <artifactId>spring-break</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>spring-break</name>
     <description>Student list Spring Boot CRUD web app</description>
     <scm>
