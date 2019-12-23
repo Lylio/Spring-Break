@@ -9,14 +9,14 @@
     </parent>
     <groupId>com.lylechristine</groupId>
     <artifactId>spring-break</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.2-SNAPSHOT</version>
     <name>spring-break</name>
     <description>Student list Spring Boot CRUD web app</description>
     <scm>
         <connection>scm:git:git@github.com:Lylio/Spring-Break.git</connection>
         <developerConnection>scm:git:git@github.com:Lylio/Spring-Break.git</developerConnection>
         <url>https://github.com/Lylio/Spring-Break</url>
-    <tag>spreint-break-0.1.1</tag>
+    <tag>HEAD</tag>
   </scm>
 
     <properties>
