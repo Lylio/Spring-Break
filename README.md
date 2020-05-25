@@ -16,3 +16,6 @@ A Spring Boot CRUD app which maintains a list of students with their contact det
 ## Maven start-up
 1. `./mvnw spring-boot:run`
 2. Open browser at http://localhost:8080
+
+## Swagger UI
+1. Open browser at http://localhost:8080/swagger-ui.html
