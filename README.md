@@ -2,7 +2,7 @@
 ![Logos](img/spring-boot-java.png)
 <br>
 <br>
-A Spring Boot CRUD app which maintains a list of students with their contact details. Based on the example at https://www.javaguides.net/2019/04/spring-boot-thymeleaf-crud-example-tutorial.html
+A Spring Boot CRUD app which maintains a list of emergency contavts with their contact details. Based on the example at https://www.javaguides.net/2019/04/spring-boot-thymeleaf-crud-example-tutorial.html
 <br>
 <br>
 <br>

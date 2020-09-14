@@ -1,11 +1,11 @@
 a {
     text-decoration: none;
-    color: chocolate;
+    color: #d21e42;
 }
 
 body {
     color: rgba(17, 17, 17, 0.97);
-    background-color: rgba(255, 198, 143, 0.45);
+    background-color: rgba(26, 187, 94, 1);
 }
 
 .card {
@@ -17,9 +17,11 @@ body {
 }
 
 .title {
-    color: chocolate;
+    color: rgba(0, 123, 255, 1);
     text-align: center;
     margin-top: 5%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #181818;
 }
 
 

@@ -1,4 +1,4 @@
-package com.lylechristine.springbreak;
+package com.lylechristine.emergencycontacts;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

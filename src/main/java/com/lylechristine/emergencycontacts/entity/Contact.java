@@ -1,4 +1,4 @@
-package com.lylechristine.springbreak.entity;
+package com.lylechristine.emergencycontacts.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 
 @Entity
-public class Student {
+public class Contact {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -25,9 +25,9 @@ public class Student {
     @Column(name = "phone_no")
     private long phoneNo;
 
-    public Student() {}
+    public Contact() {}
 
-    public Student(String name, String email) {
+    public Contact(String name, String email) {
         this.name = name;
         this.email = email;
     }

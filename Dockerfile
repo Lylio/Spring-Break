@@ -11,10 +11,10 @@ VOLUME /tmp
 EXPOSE 8080
 
 # The application's jar file
-ARG JAR_FILE=target/spring-break-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/emergency-contact-services-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
-ADD ${JAR_FILE} spring-break.jar
+ADD ${JAR_FILE} emergency-contact-services.jar
 
 # Run the jar file 
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/spring-break.jar"]
