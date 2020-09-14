@@ -1,2 +1,25 @@
+# BANNER
+spring.banner.location: classpath:banner.txt
+
+# ENDPOINT MANAGEMENT
+management:
+  endpoint:
+    info:
+      enabled: true
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+    health:
+      show-details: always
+      enabled: true
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+# LOGGING
 logging:
   file: application.log

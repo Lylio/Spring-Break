@@ -1,21 +1,20 @@
-# Spring Break
-![Logos](img/spring-boot-java.png)
-<br>
-<br>
-A Spring Boot CRUD app which maintains a list of emergency contavts with their contact details. Based on the example at https://www.javaguides.net/2019/04/spring-boot-thymeleaf-crud-example-tutorial.html
-<br>
-<br>
-<br>
-![Spring Break](img/screenshot2.png)
-<br>
-<br>
-## Start-up script
-1. `sh startup.sh`
-2. Open browser at http://localhost:8080
+![](https://github.com/Lylio/image-repo/blob/master/logos/java.png?raw=true)
+![](https://github.com/Lylio/image-repo/blob/master/logos/spring-boot.png?raw=true)
+# Emergency Contact Services
+## Built with Spring Boot
 
-## Maven start-up
+### Description
+A Spring Boot emergency contact application. Demo can be found at https://emergency-contact-services.herokuapp.com/
+
+#### Docker Launch
+1. `docker build -t emergency-contact-services .`
+2. `docker run -p 9005:8080 emergency-contact-services:latest`
+3. Open first tab/browser at http://localhost:9005
+
+#### Maven Launch
 1. `./mvnw spring-boot:run`
-2. Open browser at http://localhost:8080
+2. Open tab/browser at http://localhost:8080
 
-## Swagger UI
-1. Open browser at http://localhost:8080/swagger-ui.html
+### Swagger UI
+1. `./mvnw spring-boot:run`
+2. Open browser at http://localhost:8080/swagger-ui.html

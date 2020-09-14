@@ -1,21 +1,13 @@
-# Start with a base image containing Java runtime
-FROM openjdk:8-jdk-alpine
+# First build stage: install dependencies
+FROM maven:3.6.1-jdk-8-slim AS build
+RUN mkdir -p /workspace
+WORKDIR /workspace
+COPY pom.xml /workspace
+COPY src /workspace/src
+RUN mvn -f pom.xml clean package
 
-# Add Maintainer Info
-MAINTAINER Lyle Christine
-
-# Add a volume pointing to /tmp
-VOLUME /tmp
-
-# Make port 8080 available to the world outside this container
+# Second build stage: run app
+FROM openjdk:8-alpine
+COPY --from=build /workspace/target/*.jar app.jar
 EXPOSE 8080
-
-# The application's jar file
-ARG JAR_FILE=target/emergency-contact-services-0.0.1-SNAPSHOT.jar
-
-# Add the application's jar to the container
-ADD ${JAR_FILE} emergency-contact-services.jar
-
-# Run the jar file 
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/spring-break.jar"]
-
+ENTRYPOINT ["java","-jar","app.jar"]
