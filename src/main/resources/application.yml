@@ -22,4 +22,5 @@ management:
 
 # LOGGING
 logging:
-  file: application.log
+  file:
+    name: /home/lylio/Documents/logs/emergency-contacts.log
