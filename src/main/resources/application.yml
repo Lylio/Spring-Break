@@ -1,3 +1,8 @@
+# LOGGING (Spring Boot 2 requires logging.file.name)
+logging:
+  file:
+    name: /home/lylio/Documents/logs/emergency-contacts.log
+
 # BANNER
 spring.banner.location: classpath:banner.txt
 
@@ -19,8 +24,3 @@ management:
     web:
       exposure:
         include: "*"
-
-# LOGGING
-logging:
-  file:
-    name: /home/lylio/Documents/logs/emergency-contacts.log
