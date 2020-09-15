@@ -23,6 +23,9 @@
                         <div class="form-group col-md-6">
                             <label for="name" class="col-form-label">Name</label> <input type="text" th:field="*{name}" class="form-control" id="name" placeholder="Name"> <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="text-danger"></span>
                         </div>
+                        <div class="form-group col-md-6">
+                            <label for="econtact" class="col-form-label">Emergency Contact</label> <input type="text" th:field="*{econtact}" class="form-control" id="econtact" placeholder="Emergency Contact"> <span th:if="${#fields.hasErrors('econtact')}" th:errors="*{econtact}" class="text-danger"></span>
+                        </div>
                         <div class="form-group col-md-8">
                             <label for="email" class="col-form-label">Email</label> <input type="text" th:field="*{email}" class="form-control" id="email" placeholder="Email"> <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="text-danger"></span>
                         </div>

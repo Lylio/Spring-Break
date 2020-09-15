@@ -9,7 +9,7 @@ A Spring Boot emergency contact application. Demo can be found at https://emerge
 #### Docker Launch
 1. `docker build -t emergency-contact-services .`
 2. `docker run -p 9005:8080 emergency-contact-services:latest`
-3. Open first tab/browser at http://localhost:9005
+3. Open a tab/browser at http://localhost:9005
 
 #### Maven Launch
 1. `./mvnw spring-boot:run`
@@ -17,4 +17,4 @@ A Spring Boot emergency contact application. Demo can be found at https://emerge
 
 ### Swagger UI
 1. `./mvnw spring-boot:run`
-2. Open browser at http://localhost:8080/swagger-ui.html
+2. Open a tab/browser at http://localhost:8080/swagger-ui.html
